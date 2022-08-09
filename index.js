@@ -40,7 +40,7 @@ for(let i = 0; i<posts.length; i++){
                         <p >${curr.location}</p>
                     </div>
                 </div>
-            <img src = "${curr.post}" class = "post" alt="image posted by creator" ondblclick="change(${i})>
+            <img src = "${curr.post}" class = "post" alt="image posted by creator" ondblclick="change(${i})">
             </div>
             <div class = "container ">
                 <img src="images/icon-heart.png" class = "icons" alt="like" id = "like${i}"  ondblclick="change(${i})">
