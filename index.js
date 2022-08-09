@@ -40,7 +40,7 @@ for(let i = 0; i<posts.length; i++){
                         <p >${curr.location}</p>
                     </div>
                 </div>
-            <img src = "${curr.post}" class = "post" alt="image posted by creator">
+            <img src = "${curr.post}" class = "post" alt="image posted by creator" ondblclick="change(${i})>
             </div>
             <div class = "container ">
                 <img src="images/icon-heart.png" class = "icons" alt="like" id = "like${i}"  ondblclick="change(${i})">
@@ -59,7 +59,7 @@ function change(a){
     const btn = document.getElementById(b);
     b="noOfLikes"+a
     const box = document.getElementById(b);
-    console.log(stn.src);
+    console.log(btn.src);
     if(btn.src=="https://rahul72parihar.github.io/images/icon-heart.png"){
         btn.src = "images/likespink.png";
         posts[a].likes++
