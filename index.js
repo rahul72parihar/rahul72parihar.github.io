@@ -60,7 +60,7 @@ function change(a){
     b="noOfLikes"+a
     const box = document.getElementById(b);
     console.log(btn.src);
-    if(btn.src=="https://rahul72parihar.github.io/images/icon-heart.png"){
+    if(btn.src=="http://rahulp.me/images/icon-heart.png"){
         btn.src = "images/likespink.png";
         posts[a].likes++
     }
