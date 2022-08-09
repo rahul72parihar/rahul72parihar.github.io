@@ -59,7 +59,8 @@ function change(a){
     const btn = document.getElementById(b);
     b="noOfLikes"+a
     const box = document.getElementById(b);
-    if(btn.src=="https://rahul72parihar.github.io/Oldstagram/images/icon-heart.png"){
+    console.log(stn.src);
+    if(btn.src=="https://rahul72parihar.github.io/images/icon-heart.png"){
         btn.src = "images/likespink.png";
         posts[a].likes++
     }
