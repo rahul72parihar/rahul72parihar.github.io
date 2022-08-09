@@ -43,7 +43,7 @@ for(let i = 0; i<posts.length; i++){
             <img src = "${curr.post}" class = "post" alt="image posted by creator" ondblclick="change(${i})">
             </div>
             <div class = "container ">
-                <img src="images/icon-heart.png" class = "icons" alt="like" id = "like${i}"  ondblclick="change(${i})">
+                <img src="images/icon-heart.png" class = "icons" alt="like" id = "like${i}"  onclick="change(${i})">
                 <img src="images/icon-comment.png" class = "icons" alt="comment">
                 <img src="images/icon-dm.png" class = "icons" alt="send">
                 <p class = "bold comment"><span id = "noOfLikes${i}">${curr.likes}</span> likes</p>
