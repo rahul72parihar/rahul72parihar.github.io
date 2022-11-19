@@ -89,6 +89,7 @@ a{
         font-size: 2rem;
         grid-template: 20vh repeat(2,1fr)/repeat(2, 2fr) 1fr;
         height: 65vh;
+        min-height: 500px;
     }
     .banner img{
         height: 100%;
