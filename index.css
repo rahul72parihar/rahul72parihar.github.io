@@ -1,10 +1,11 @@
-*{
+*, *::after, *::before{
     box-sizing: border-box;
 }
 body{
     margin: 0;
     font-family: 'roboto';
 }
+/* Header */
 .index-header{
     padding: 0;
     margin: 0;
@@ -29,8 +30,79 @@ body{
     width: 3em;
     margin-left: 1em;
 }
-@media (min-width:715px){
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+@media (min-width:615px){
     .index-header{
         font-size: 1rem;
+    }
+}
+
+/* banner */
+.banner{
+    
+    text-shadow: 0px 0px 3px black;
+    color: white;
+    font-size: 3vw;
+    display: grid;
+    grid-template: 1fr 1fr 1fr/repeat(2, 1fr) 0;
+}
+.banner img{
+    grid-row: 1/-1;
+    grid-column: 1/-1;
+    width: 100%;
+}
+.banner-background{
+    grid-row: 1/-1;
+    grid-column: 1/-1;
+    width: 100%;
+    border: 5px solid black;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+.banner-info{
+    padding: 1em;
+    height: 100%;
+    width: 100%;
+    max-width: 1050px;
+    grid-row: 2/-1;
+    grid-column: 1/-2;
+}
+.banner-date{
+    font-size: 2vw;
+    margin: 0;
+}
+.banner-heading{
+    margin-top: 0;
+    font-size: 5vw;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.banner-des{
+    font-size: 2.5vw;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+@media (min-width:915px){
+    .banner{
+        font-size: 2rem;
+        grid-template: 20vh repeat(2,1fr)/repeat(2, 2fr) 1fr;
+        height: 65vh;
+    }
+    .banner img{
+        height: 100%;
+        object-fit: cover;
+    }
+    .banner-heading{
+        font-size: 2.5rem;
+    }
+    .banner-date{
+        font-size: 1rem;
+    }
+    .banner-des{
+        font-size: 1rem;
+        font-weight: 300;
+        margin: 0;
     }
 }
