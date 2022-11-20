@@ -107,3 +107,79 @@ a{
         margin: 0;
     }
 }
+/* MAIN CONTENT */
+main{
+    margin: 1em;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+.post{
+    border-radius: 10px;
+    padding: 1em;
+    background-color: rgba(184, 184, 184, 0.349);
+    width: 100%;
+}
+.main-date{
+    font-size: 2vw;
+    margin-bottom: 0;
+}
+.main-heading{
+    margin-top: 0;
+    font-size: 3vw;
+    font-weight: 900;
+}
+.main-para{
+    font-size: 2vw;
+    padding: 0 0 0.5em 0;
+}
+.main-image{
+    width: 100%;
+}
+#more-post{
+    grid-column: 1/-1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.more-image{
+    padding: 20px;
+    border-radius:50% ;
+    background-color: rgba(179, 179, 179, 0.699);
+    width: 70px;
+}
+.more-heading{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 4vw;
+}
+@media (min-width:615px){
+    main{
+        margin: 2em;
+        /* border: 10px solid pink; */
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    .main-date{
+        font-size: 1rem;
+    }
+    .main-heading{
+        font-size: 2rem;
+    }
+    .main-para{
+        font-size: 1.2rem;
+    }
+    .more-heading{
+        font-weight: 900;
+        font-size: 2rem;
+    }
+}
+
+/* UTILITY CLASS */
+.clickable, a{
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}
