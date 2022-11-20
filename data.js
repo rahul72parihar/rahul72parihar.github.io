@@ -16,9 +16,16 @@ export const postData =[
     },
     {
         imgSrc:"images/project/conversion.PNG",
-        date:"Aug 2022",
+        date:"Jug 2022",
         heading:"Unit Conversion (CHROME EXTENSION)",
         paragraph:"This take your input in a chrome extension and display its convesion in 3 units, this is a chrome extension, the conversion is done and rendered using JS.",
         link:"https://rahulp.me/Metric-Imperial-Unit-Conversion/",
+    },
+    {
+        imgSrc:"images/project/password.PNG",
+        date:"Jul 2022",
+        heading:"Password Generator",
+        paragraph:"This app make random password of 15 character of any aascii character",
+        link:"https://rahulp.me/password-generator/",
     },
 ]
