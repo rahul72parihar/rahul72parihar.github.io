@@ -41,18 +41,25 @@ a{
 }
 
 /* BANNER */
+
 .banner{
     margin-top: 2em;
     max-width: 900px;
     width: 90%;
     margin: 1em auto;
 }
-.banner img{
+.home-banner-img{
     max-height: 400px;
     display: block;
     width: 90%;
     margin: 0.5em auto;
     object-fit: cover;
+}
+#rahul-img{
+    max-width: 300px;
+    width: 30%;
+    border-radius: 50%;
+    margin: 2em;
 }
 .banner-date{
     letter-spacing: 2px;
