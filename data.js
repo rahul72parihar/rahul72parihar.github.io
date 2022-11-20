@@ -1,32 +1,24 @@
 export const postData =[
     {
-        imgSrc:"https://images.unsplash.com/photo-1661961112951-f2bfd1f253ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80",
-        date:"12/1/2001",
-        heading:"Post Heading",
-        paragraph:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus esse nobis deleniti minima corrupti alias sapiente possimus aperiam fugit nam doloribus ipsum corporis, nisi at. Ducimus itaque iusto ipsam dolor?",
+        imgSrc:"images/project/personality.PNG",
+        date:"Nov 2022",
+        heading:"Personality Test",
+        paragraph:"This is a 16 Personality test made with the help of JS. This show your personality on basic of Myers Briggs Personality Indicators, and shows celebs with your personality too!!!",
+        link:"https://rahulp.me/Personality-test/",
+
     },
     {
-        imgSrc:"https://images.unsplash.com/photo-1661961112951-f2bfd1f253ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80",
-        date:"13/1/2001",
-        heading:"Post Heading",
-        paragraph:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus esse nobis deleniti minima corrupti alias sapiente possimus aperiam fugit nam doloribus ipsum corporis, nisi at. Ducimus itaque iusto ipsam dolor?",
+        imgSrc:"images/project/instagram.PNG",
+        date:"Aug 2022",
+        heading:"Instagram Clone (CSS Project)",
+        paragraph:"Clone of Instagram Website made with the help of css",
+        link:"https://rahulp.me/Oldstagram/",
     },
     {
-        imgSrc:"https://images.unsplash.com/photo-1661961112951-f2bfd1f253ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80",
-        date:"12/1/2001",
-        heading:"Post Heading",
-        paragraph:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus esse nobis deleniti minima corrupti alias sapiente possimus aperiam fugit nam doloribus ipsum corporis, nisi at. Ducimus itaque iusto ipsam dolor?",
-    },
-    {
-        imgSrc:"https://images.unsplash.com/photo-1661961112951-f2bfd1f253ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80",
-        date:"12/1/2001",
-        heading:"Post Heading",
-        paragraph:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus esse nobis deleniti minima corrupti alias sapiente possimus aperiam fugit nam doloribus ipsum corporis, nisi at. Ducimus itaque iusto ipsam dolor?",
-    },
-    {
-        imgSrc:"https://images.unsplash.com/photo-1661961112951-f2bfd1f253ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80",
-        date:"12/1/2001",
-        heading:"Post Heading",
-        paragraph:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus esse nobis deleniti minima corrupti alias sapiente possimus aperiam fugit nam doloribus ipsum corporis, nisi at. Ducimus itaque iusto ipsam dolor?",
+        imgSrc:"images/project/conversion.PNG",
+        date:"Aug 2022",
+        heading:"Unit Conversion (CHROME EXTENSION)",
+        paragraph:"This take your input in a chrome extension and display its convesion in 3 units, this is a chrome extension, the conversion is done and rendered using JS.",
+        link:"https://rahulp.me/Metric-Imperial-Unit-Conversion/",
     },
 ]

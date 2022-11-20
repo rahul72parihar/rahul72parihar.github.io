@@ -1,9 +1,10 @@
-// banner open script
+// IMPORT DATA
 import { postData } from "./data.js"
+
+// banner open script
 const bannerEl = document.getElementById("banner-el")
 console.log(bannerEl)
 bannerEl.addEventListener('click',function(){
-    console.log("clicked")
     window.open('#', '_blank');
 })
 
@@ -17,12 +18,14 @@ function renderMain(){
     for(i = 0; i<currMax && i<postData.length; i++){
         toRender+=  
         `
-        <div class="post clickable" data-uuid =${i}>
-        <img class="main-image" src=${postData[i].imgSrc} alt="post image">
-        <p class="main-date">${postData[i].date}</p>
-        <p class="main-heading">${postData[i].heading}</p>
-        <p class="main-para">${postData[i].paragraph}</p>
+        <a href= ${postData[i].link}>
+        <div class="post clickable">
+            <img class="main-image" src=${postData[i].imgSrc} alt="post image">
+            <p class="main-date">${postData[i].date}</p>
+            <p class="main-heading">${postData[i].heading}</p>
+            <p class="main-para">${postData[i].paragraph}</p>
         </div>
+        </a>
         `
     }
     if(i<postData.length){
@@ -48,12 +51,5 @@ document.addEventListener('click',function(e){
     }
     else if(e.target.classList.contains('post')){
         console.log(e.target.dataset.uuid)
-    }
-})
-// post opening
-document.addEventListener('click',function(e){
-    if(e.target.classList.contains('more-image')){
-        currMax+=3;
-    renderMain()
     }
 })
