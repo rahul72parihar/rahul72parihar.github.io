@@ -224,9 +224,11 @@ footer h2{
 header h2 a:hover, header h3 a:hover{
     background-color: whitesmoke;
     color: black;
+    transition: 0.4s;
     padding: 1em;
 }
 .banner:hover{
+    transition: 0.4s;
     border: 10px solid rgba(189, 189, 189, 0.521);
 }
 /* PROJECT HOVER */
@@ -236,9 +238,11 @@ main a:hover{
     width: 100%;
     z-index: 3;
     background-color: rgb(129, 194, 255);
-    transform: scale(1.05);
+    transform: scale(1.02);
+    transition: 0.4s;
 }
 #more-btn:hover{
+    transition: 0.4s;
     background-color: rgb(129, 194, 255);
     transform: scale(1.2);
 }
