@@ -1,5 +1,13 @@
 export const postData =[
     {
+        imgSrc:"images/project/songRanker.PNG",
+        date:"Nov 2022",
+        heading:"Song Ranker App",
+        paragraph:"This app ranked 32 song of 2022 so you can see the top song and the champion and your choice",
+        link:"https://rahulp.me/songRanker/",
+
+    },
+    {
         imgSrc:"images/project/personality.PNG",
         date:"Nov 2022",
         heading:"Personality Test",
