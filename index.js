@@ -5,7 +5,7 @@ import { postData } from "./data.js"
 const bannerEl = document.getElementById("banner-el")
 console.log(bannerEl)
 bannerEl.addEventListener('click',function(){
-    window.open('#', '_blank');
+    window.open('home.html');
 })
 
 // RENDER 
