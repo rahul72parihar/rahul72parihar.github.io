@@ -22,3 +22,11 @@ function renderMain(){
 }
 //render max 3 items by default
 renderMain()
+
+// easter egg
+let forceEnd = 0
+document.getElementById("rahul-img").addEventListener('click',function() {
+    forceEnd++;
+    if(forceEnd>=20)
+        window.open("https://youtube.com/shorts/VQyJ9qB5Hq8", "_self")
+})
