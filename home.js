@@ -27,6 +27,7 @@ renderMain()
 let forceEnd = 0
 document.getElementById("rahul-img").addEventListener('click',function() {
     forceEnd++;
-    if(forceEnd>=20)
+    document.getElementById("rahul-img").style.transform = `scale(1.${forceEnd})`
+    if(forceEnd>=10)
         window.open("https://youtube.com/shorts/VQyJ9qB5Hq8", "_self")
 })

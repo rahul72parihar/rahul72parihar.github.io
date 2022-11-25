@@ -56,12 +56,16 @@ a{
     object-fit: cover;
 }
 #rahul-img{
+    transition: 1s;
     min-width: 100px;
     max-width: 300px;
     width: 20vw;
     border-radius: 50%;
     margin: 1em;
     cursor: pointer;
+}
+#rahul-img:hover{
+    border-radius: 47%;
 }
 .banner-date{
     letter-spacing: 2px;
@@ -79,10 +83,19 @@ a{
     font-size: 4vw;
     margin: 0.5em 0;
 }
-.banner-des{ 
+.banner-des{
+    letter-spacing: 0.6px;
+    line-height: 1.4em;
+    text-align: justify;
     padding-left: 0.5em;
     font-size: 3vw;
     margin: 0;
+}
+.thinner{
+    font-weight: 300;
+}
+.thinner b{
+    color: rgb(0, 80, 112);
 }
 @media (min-width: 700px) {
     /* .banner img{
