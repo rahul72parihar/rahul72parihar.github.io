@@ -85,7 +85,39 @@ a{
     font-weight: 300;
     letter-spacing: 2px;
 }
+.logos{
+    font-size: 1.2em;
+    grid-row: 1/2;
+    grid-column: 1/-1;
+    width: 100%;
+    /* background-color: brown; */
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+}
+.fa-github,.icon{
+    width: max-content;
+    color: white;
+    border-radius: 20px;
+    font-size: 1em;
+    background-color: black;
+    align-self: baseline;
+    transition: 0.4s;
+    padding: 0.5em 1em;
+}
+.fa-github:hover,.icon:hover{
+    transform: scale(1.1);
+    background-color: aliceblue;
+    color: black;
+}
+.github-text{
+    align-self: baseline;
+    font-size: 0.5em;
+}
 @media (min-width:915px){
+    .logos{
+        font-size: 1em;
+    }
     .banner{
         font-size: 2rem;
         grid-template: 20vh repeat(2,1fr)/repeat(2, 2fr) 1fr;
@@ -153,7 +185,6 @@ main{
     padding: 0 0 0.5em 0;
 }
 .main-image{
-    height: 220px;
     width: 100%;
     object-fit: cover;
 }
@@ -177,8 +208,14 @@ main{
     font-size: 4vw;
 }
 @media (min-width:615px){
+    .main-image{
+        height: 210px;
+        width: 100%;
+        object-fit: cover;
+    }
     main{
-        margin: 2em;
+        margin: 2em 3em;
+        gap: 2em;
         /* border: 10px solid pink; */
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
@@ -196,6 +233,7 @@ main{
         font-size: 2rem;
     }
 }
+
 /* FOOTER */
 footer{
     padding: 0.5em;
@@ -229,16 +267,21 @@ header h2 a:hover, header h3 a:hover{
 }
 .banner:hover{
     transition: 0.4s;
-    border: 10px solid rgba(189, 189, 189, 0.521);
+    border: 5px solid rgba(189, 189, 189, 0.521);
 }
 /* PROJECT HOVER */
+
 main a:hover{
     border-radius: 10px;
-    display: block;
-    width: 100%;
-    z-index: 3;
-    background-color: rgb(129, 194, 255);
+    /* background-color: rgb(129, 194, 255); */
     transform: scale(1.02);
+    transition: 0.4s;
+}
+.post a .main-image:hover{
+    border-radius: 10px;
+    /* background-color: rgb(129, 194, 255); */
+    transform: scale(1.2);
+    border: 1px solid black;
     transition: 0.4s;
 }
 #more-btn:hover{

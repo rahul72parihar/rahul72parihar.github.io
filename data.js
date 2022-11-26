@@ -5,7 +5,7 @@ export const postData =[
         heading:"Song Ranker App",
         paragraph:"This app ranked 32 song of 2022 so you can see the top song and the champion and your choice",
         link:"https://rahulp.me/songRanker/",
-
+        git: "https://github.com/rahul72parihar/songRanker",
     },
     {
         imgSrc:"images/project/personality.PNG",
@@ -13,7 +13,7 @@ export const postData =[
         heading:"Personality Test",
         paragraph:"This is a 16 Personality test made with the help of JS. This show your personality on basic of Myers Briggs Personality Indicators, and shows celebs with your personality too!!!",
         link:"https://rahulp.me/Personality-test/",
-
+        git: "https://github.com/rahul72parihar/Personality-test",
     },
     {
         imgSrc:"images/project/instagram.PNG",
@@ -21,13 +21,15 @@ export const postData =[
         heading:"Instagram Clone (CSS Project)",
         paragraph:"Clone of Instagram Website made with the help of css",
         link:"https://rahulp.me/Oldstagram/",
+        git: "https://github.com/rahul72parihar/Oldstagram",
     },
     {
         imgSrc:"images/project/conversion.PNG",
-        date:"Jug 2022",
+        date:"Jul 2022",
         heading:"Unit Conversion (CHROME EXTENSION)",
         paragraph:"This take your input in a chrome extension and display its convesion in 3 units, this is a chrome extension, the conversion is done and rendered using JS.",
         link:"https://rahulp.me/Metric-Imperial-Unit-Conversion/",
+        git: "https://github.com/rahul72parihar/Metric-Imperial-Unit-Conversion",
     },
     {
         imgSrc:"images/project/password.PNG",
@@ -35,5 +37,6 @@ export const postData =[
         heading:"Password Generator",
         paragraph:"This app make random password of 15 character of any aascii character",
         link:"https://rahulp.me/password-generator/",
+        git: "https://github.com/rahul72parihar/password-generator",
     },
 ]
