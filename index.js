@@ -26,14 +26,14 @@ function renderMain(){
             <p class="main-date">${postData[i].date}</p>
             <p class="main-heading">${postData[i].heading}</p>
             <p class="main-heading">
-                <a href= "${postData[i].link}">
+                <a href= "${postData[i].link}" target=_blank"">
                     <i class="fa fa-arrow-up icon">
                         <span class="github-text">LIVE SITE</span>
                     </i>
                 </a>
             </p>
             <p class="main-heading">
-                <a href= "${postData[i].git}">
+                <a href= "${postData[i].git}" target="_blank">
                     <i class="fa fa-github icon">
                         <span class="github-text">GITHUB CODE</span>
                     </i>
