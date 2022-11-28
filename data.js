@@ -16,6 +16,14 @@ export const postData =[
         git: "https://github.com/rahul72parihar/Personality-test",
     },
     {
+        imgSrc:"images/project/colorPicker.PNG",
+        date:"Nov 2022",
+        heading:"Color Scheme (Extension)",
+        paragraph:"Pick Color with the help of an extention taking color from and API",
+        link:"https://rahulp.me/Color-Scheme-Picker/",
+        git: "https://github.com/rahul72parihar/Color-Scheme-Picker.git",
+    },
+    {
         imgSrc:"images/project/instagram.PNG",
         date:"Aug 2022",
         heading:"Instagram Clone (CSS Project)",
