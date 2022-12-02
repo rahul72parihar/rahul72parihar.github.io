@@ -1,5 +1,13 @@
 export const postData =[
     {
+        imgSrc:"images/project/movie.PNG",
+        date:"Dec 2022",
+        heading:"Movie WatchList Maker",
+        paragraph:"This app helps make you your watchlist and make use of IMdB API form fetching data and uses local storage for saving your watchlist. ADD/REMOVE movie from your watchlist.!!!",
+        link:"https://rahulp.me/WatchList/",
+        git: "https://github.com/rahul72parihar/WatchList",
+    },
+    {
         imgSrc:"images/project/songRanker.PNG",
         date:"Nov 2022",
         heading:"Song Ranker App",
