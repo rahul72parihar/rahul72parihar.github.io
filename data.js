@@ -8,6 +8,14 @@ export const postData =[
         git: "https://github.com/rahul72parihar/WatchList",
     },
     {
+        imgSrc:"images/project/trivia.PNG",
+        date:"Dec 2022",
+        heading:"React APP Trivia",
+        paragraph:"Uses Trivia databaset to fetch question and use React to Render App",
+        link:"https://rahulp.me/trivia/",
+        git: "https://github.com/rahul72parihar/trivia",
+    },
+    {
         imgSrc:"images/project/songRanker.PNG",
         date:"Nov 2022",
         heading:"Song Ranker App",
