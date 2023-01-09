@@ -76,7 +76,14 @@ a{
 }
 .banner-heading{
     margin-top: 0;
+    margin-bottom: 0.1em;
     font-size: 5vw;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.banner-subheading{
+    margin-top: 0;
+    font-size: 3vw;
     font-weight: 900;
     letter-spacing: 2px;
 }
@@ -95,7 +102,7 @@ a{
     gap: 0.5em;
     justify-content: center;
 }
-.fa-github,.icon{
+.fa-github, .fa-linkedin ,.icon{
     font-size: 0.9em !important;
     width: max-content;
     color: white;
@@ -105,7 +112,7 @@ a{
     transition: 0.4s;
     padding: 0.5em 1em;
 }
-.fa-github:hover,.icon:hover{
+.fa-github:hover,.fa-linkedin:hover,.icon:hover{
     transform: scale(1.12);
     background-color: aliceblue;
     color: black;
@@ -137,6 +144,9 @@ a{
     }
     .banner-heading{
         font-size: 2.5rem;
+    }
+    .banner-subheading{
+        font-size: 1.8rem;
     }
     .banner-date{
         font-size: 1rem;

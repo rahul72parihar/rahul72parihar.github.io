@@ -60,9 +60,10 @@ a{
     min-width: 100px;
     max-width: 300px;
     width: 20vw;
-    border-radius: 50%;
+    border-radius: 10%;
     margin: 1em;
     cursor: pointer;
+    border: 1px solid black;
 }
 #rahul-img:hover{
     border-radius: 47%;
@@ -95,7 +96,13 @@ a{
     font-weight: 300;
 }
 .thinner b{
-    color: rgb(0, 80, 112);
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    padding: 0.1em 0.5em;
+    font-size: 1.2em;
+    background-color: rgb(0, 80, 112);
+    border-radius: 0.3em;
+    margin: 0.1em 0;
 }
 @media (min-width: 700px) {
     /* .banner img{
