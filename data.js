@@ -2,9 +2,8 @@ export const postData = [
   {
     imgSrc: "images/project/ecommerce.PNG",
     date: "Mar 2023",
-    heading: "Book Ecommerce(RPSTORE)",
-    paragraph:
-      "Ecommerce site with cart and authentication, Protected Routes, Context API",
+    heading: "Book Ecommerce (RPSTORE)",
+    paragraph: "Ecommerce site with cart and authentication, Protected Routes, Context API",
     link: "https://odinecommerce.netlify.app/home",
     git: "https://github.com/rahul72parihar/OdinEcommerce",
   },
@@ -12,8 +11,7 @@ export const postData = [
     imgSrc: "images/project/odintodo.PNG",
     date: "Feb 2022",
     heading: "TO-DO List",
-    paragraph:
-      "To do list PC responsive only Build In Vanilla js and webpack only!!!!",
+    paragraph: "To do list PC responsive only Build In Vanilla js and webpack only!!!!",
     link: "https://rahulp.me/OdinToDo/",
     git: "https://github.com/rahul72parihar/OdinToDo",
   },
@@ -21,8 +19,7 @@ export const postData = [
     imgSrc: "images/project/basewebpassword.PNG",
     date: "Apr 2022",
     heading: "BaseWeb Password Generator",
-    paragraph:
-      "Used Baseweb Library by Uber to create Password Generator. REACT BASEWEB",
+    paragraph: "Used Baseweb Library by Uber to create Password Generator. REACT BASEWEB",
     link: "https://basewebpassword.netlify.app/",
     git: "https://github.com/rahul72parihar/BaseWebPassword",
   },
@@ -30,8 +27,7 @@ export const postData = [
     imgSrc: "images/project/trivia.PNG",
     date: "Dec 2022",
     heading: "React APP Trivia",
-    paragraph:
-      "Uses Trivia databaset to fetch question and use React to Render App",
+    paragraph: "Uses Trivia databaset to fetch question and use React to Render App",
     link: "https://rahulp.me/trivia/",
     git: "https://github.com/rahul72parihar/trivia",
   },
@@ -57,8 +53,7 @@ export const postData = [
     imgSrc: "images/project/colorPicker.PNG",
     date: "Nov 2022",
     heading: "Color Scheme (Extension)",
-    paragraph:
-      "Pick Color with the help of an extention taking color from and API",
+    paragraph: "Pick Color with the help of an extention taking color from and API",
     link: "https://rahulp.me/Color-Scheme-Picker/",
     git: "https://github.com/rahul72parihar/Color-Scheme-Picker.git",
   },
@@ -83,8 +78,7 @@ export const postData = [
     imgSrc: "images/project/password.PNG",
     date: "Jul 2022",
     heading: "Password Generator",
-    paragraph:
-      "This app make random password of 15 character of any aascii character",
+    paragraph: "This app make random password of 15 character of any aascii character",
     link: "https://rahulp.me/password-generator/",
     git: "https://github.com/rahul72parihar/password-generator",
   },
