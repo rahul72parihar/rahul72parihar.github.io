@@ -1,5 +1,13 @@
 export const postData = [
   {
+    imgSrc: "images/project/rpgallery.png",
+    date: "JAN 2024",
+    heading: "RP Gallery",
+    paragraph: "Store your photo in magical gallery.(Tailwind React Firebase)",
+    link: "https://rpgallery.netlify.app",
+    git: "https://github.com/rahul72parihar/socialMedia",
+  },
+  {
     imgSrc: "images/project/ecommerce.PNG",
     date: "Mar 2023",
     heading: "Book Ecommerce (RPSTORE)",
