@@ -20,7 +20,7 @@ export const postData = [
     date: "Feb 2022",
     heading: "TO-DO List",
     paragraph: "To do list PC responsive only Build In Vanilla js and webpack only!!!!",
-    link: "https://rahulp.me/OdinToDo/",
+    link: "https://rahul72parihar.github.io/OdinToDo/",
     git: "https://github.com/rahul72parihar/OdinToDo",
   },
   {
@@ -36,7 +36,7 @@ export const postData = [
     date: "Dec 2022",
     heading: "React APP Trivia",
     paragraph: "Uses Trivia databaset to fetch question and use React to Render App",
-    link: "https://rahulp.me/trivia/",
+    link: "https://rahul72parihar.github.io/trivia/",
     git: "https://github.com/rahul72parihar/trivia",
   },
   {
@@ -45,7 +45,7 @@ export const postData = [
     heading: "Song Ranker App",
     paragraph:
       "This app ranked 32 song of 2022 so you can see the top song and the champion and your choice",
-    link: "https://rahulp.me/songRanker/",
+    link: "https://rahul72parihar.github.io/songRanker/",
     git: "https://github.com/rahul72parihar/songRanker",
   },
   {
@@ -54,7 +54,7 @@ export const postData = [
     heading: "Personality Test",
     paragraph:
       "This is a 16 Personality test made with the help of JS. This show your personality on basic of Myers Briggs Personality Indicators, and shows celebs with your personality too!!!",
-    link: "https://rahulp.me/Personality-test/",
+    link: "https://rahul72parihar.github.io/Personality-test/",
     git: "https://github.com/rahul72parihar/Personality-test",
   },
   {
@@ -62,7 +62,7 @@ export const postData = [
     date: "Nov 2022",
     heading: "Color Scheme (Extension)",
     paragraph: "Pick Color with the help of an extention taking color from and API",
-    link: "https://rahulp.me/Color-Scheme-Picker/",
+    link: "https://rahul72parihar.github.io/Color-Scheme-Picker/",
     git: "https://github.com/rahul72parihar/Color-Scheme-Picker.git",
   },
   {
@@ -70,7 +70,7 @@ export const postData = [
     date: "Aug 2022",
     heading: "Instagram Clone (CSS Project)",
     paragraph: "Clone of Instagram Website made with the help of css",
-    link: "https://rahulp.me/Oldstagram/",
+    link: "https://rahul72parihar.github.io/Oldstagram/",
     git: "https://github.com/rahul72parihar/Oldstagram",
   },
   {
@@ -79,7 +79,7 @@ export const postData = [
     heading: "Unit Conversion (CHROME EXTENSION)",
     paragraph:
       "This take your input in a chrome extension and display its convesion in 3 units, this is a chrome extension, the conversion is done and rendered using JS.",
-    link: "https://rahulp.me/Metric-Imperial-Unit-Conversion/",
+    link: "https://rahul72parihar.github.io/Metric-Imperial-Unit-Conversion/",
     git: "https://github.com/rahul72parihar/Metric-Imperial-Unit-Conversion",
   },
   {
@@ -87,7 +87,7 @@ export const postData = [
     date: "Jul 2022",
     heading: "Password Generator",
     paragraph: "This app make random password of 15 character of any aascii character",
-    link: "https://rahulp.me/password-generator/",
+    link: "https://rahul72parihar.github.io/password-generator/",
     git: "https://github.com/rahul72parihar/password-generator",
   },
 ];
